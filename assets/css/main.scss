@@ -1,0 +1,17 @@
+$primary-background-color: #936;
+$primary-color: #fff;
+@import './templates/common/layout';
+@import './elements/common/header/menu';
+@import './modules/blog/category';
+.btn-primary {
+    background: $primary-background-color;
+    border-color: $primary-background-color;
+    &:hover {
+        background-color: darken($primary-background-color, 10%);
+        border-color: darken($primary-background-color, 10%)
+    }
+    &:not(:disabled):not(.disabled):active {
+        background-color: darken($primary-background-color, 15%);
+        border-color: darken($primary-background-color, 15%)
+    }
+}

@@ -1,0 +1,6 @@
+.list-group-item {
+    &.active {
+        background-color: $primary-background-color;
+        border-color: $primary-background-color;
+    }
+}

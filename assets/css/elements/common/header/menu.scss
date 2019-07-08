@@ -1,0 +1,18 @@
+@media (min-width: 1281px) {
+    .partial-menu {
+        >.nav-menu-section {
+            background: $primary-background-color;
+            border-radius: 5px;
+            padding: 0 5px;
+            >.nav-menu-section__item {
+                background: $primary-background-color;
+                >.nav-menu-section__item_link {
+                    color: $primary-color;
+                }
+                >.nav-menu-section__item_link.nuxt-link-exact-active {
+                    background: rgba(0, 0, 0, 0.22);
+                }
+            }
+        }
+    }
+}
